@@ -1,0 +1,8 @@
+{
+  "name": "bortforklaringar",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

@@ -1,0 +1,7 @@
+<ion-content padding>
+  <ion-label></ion-label>
+  <ion-list>
+    <ion-list-header>Vad vill du smita undan?</ion-list-header>
+    <button *ngFor="let kategori of kategorier" ion-item (click)="visaBortForklaring(kategori.typ)">{{kategori.varde}}</button>
+  </ion-list>
+</ion-content>
